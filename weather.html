@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Flow</title>
+    <link rel="stylesheet" href="weather-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    <div class="container"> 
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" id="city-input" placeholder="Enter your city..." spellcheck="false">
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="weather-card" id="weather-card" style="display: none;">
+            <div class="weather-main">
+                <img id="weather-icon" src="" alt="Weather Icon" class="weather-icon">
+                <div class="temperature">
+                    <span id="temp">--</span><span>°C</span>
+                </div>
+                <div class="description" id="description">----</div>
+                <div class="location" id="location-name">--</div>
+            </div>
+            
+            <div class="weather-details">
+                <div class="detail-box">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="text">
+                        <span id="humidity">--%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind">-- km/h</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-temperature-half"></i>
+                    <div class="text">
+                        <span id="feels-like">--°C</span>
+                        <p>Feels Like</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="error-msg" id="error-msg" style="display: none;">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p>City not found. Please try again.</p>
+        </div>
+        
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Fetching weather data...</p>
+        </div>
+    </div>
+
+    <script src="weather-script.js"></script>
+</body>
+</html>
