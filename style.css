@@ -505,7 +505,17 @@ section h2:hover::after {
     border-radius: 10px;
     margin-top: 10px;
 }
-
+#portfolio-link{
+  text-decoration: none;
+}
+/*Certificates*/
+#cert-img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:10px;
+  object-fit:contain;
+}
 /* Contact Section */
 .social-links {
   margin-top: 2.5rem;
