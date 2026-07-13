@@ -516,6 +516,35 @@ section h2:hover::after {
   border-radius:10px;
   object-fit:contain;
 }
+/*Badges*/
+
+.achievement-card{
+    width:350px;
+}
+
+#badge{
+    width:200px;
+    height: 200px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
+
+.achievement-card h3{
+    margin-bottom:10px;
+}
+
+.achievement-card p{
+    color:#666;
+    line-height:1.6;
+}
+
+.achievement-card a{
+    display:inline-block;
+    margin-top:15px;
+    text-decoration:none;
+    color:#FFA116;   /* LeetCode orange */
+    font-weight:600;
+}
 /* Contact Section */
 .social-links {
   margin-top: 2.5rem;
