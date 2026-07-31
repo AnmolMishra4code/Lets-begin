@@ -1,0 +1,26 @@
+{
+  "name": "lets-begin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnmolMishra4code/Lets-begin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AnmolMishra4code/Lets-begin/issues"
+  },
+  "homepage": "https://github.com/AnmolMishra4code/Lets-begin#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-useragent": "^2.2.1",
+    "geoip-lite": "^2.0.3"
+  }
+}

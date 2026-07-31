@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Package: internship_runs",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "internship_runs"
+        }
+    ]
+}

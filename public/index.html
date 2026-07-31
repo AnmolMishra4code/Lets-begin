@@ -4,7 +4,7 @@
 
 <head>
   <title>Anmol's Portfolio</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon1.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon1.png">
   <link rel="shortcut icon" href="favicon1.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
@@ -36,7 +36,7 @@
     <!-- Hero Section -->
     <div class="hero">
       <div class="hero-left">
-        <img src="pfp.jpeg" alt="Profile Picture" class="profile-pic">
+        <img src="images/pfp.jpeg" alt="Profile Picture" class="profile-pic">
       </div>
       <div class="hero-right">
         <h2>Hello,<br><span id="typing"></span></h2>
@@ -84,24 +84,11 @@
   
   <!-- Skills Section -->
   <section id="skills">
-    <h2>My Skills</h2>
+    <h2>Programming Languages</h2>
     <div class="skills-grid">
       <div class="skill-card glass-panel">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo">
         <p>Java</p>
-      </div>
-      <div class="skill-card glass-panel">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Logo">
-        <p>HTML5</p>
-      </div>
-      <div class="skill-card glass-panel">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Logo">
-        <p>CSS3</p>
-      </div>
-      <div class="skill-card glass-panel">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-          alt="JavaScript Logo">
-        <p>JavaScript</p>
       </div>
       <div class="skill-card glass-panel">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo">
@@ -112,7 +99,24 @@
         <p>C</p>
       </div>
       <div class="skill-card glass-panel">
-        <img src="https://img.icons8.com/fluency/96/node-js.png"" alt=" Node Logo">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
+        <p>JavaScript</p>
+      </div>
+    </div>
+
+    <br><br>
+    <h2>Web Development</h2>
+    <div class="skills-grid">
+      <div class="skill-card glass-panel">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Logo">
+        <p>HTML5</p>
+      </div>
+      <div class="skill-card glass-panel">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Logo">
+        <p>CSS3</p>
+      </div>
+      <div class="skill-card glass-panel">
+        <img src="https://img.icons8.com/fluency/96/node-js.png" alt="Node Logo">
         <p>Node JS</p>
       </div>
       <div class="skill-card glass-panel">
@@ -122,6 +126,36 @@
     </div>
   </section>
 
+  <!-- Data Science & ML Skills -->
+  <section id="data-science-skills">
+    <h2>Data Science & Machine Learning</h2>
+    <div class="skills-grid">
+      <div class="skill-card glass-panel">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="SQL Logo">
+        <p>SQL</p>
+      </div>
+      <div class="skill-card glass-panel">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQLite Logo">
+        <p>SQLite</p>
+      </div>
+      <div class="skill-card glass-panel">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="Numpy Logo">
+        <p>NumPy</p>
+      </div>
+      <div class="skill-card glass-panel">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas Logo">
+        <p>Pandas</p>
+      </div>
+      <div class="skill-card glass-panel">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib Logo" style="width: 48px;">
+        <p>Matplotlib</p>
+      </div>
+      <div class="skill-card glass-panel">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-Learn Logo" style="width: 60px;">
+        <p>Scikit-Learn</p>
+      </div>
+    </div>
+  </section>
 
   <!--Additional skills-->
   <section id="extra-skills">
@@ -199,16 +233,24 @@
         <p>Developed a responsive personal portfolio featuring a modern Glassmorphic design, interactive animations, and
           a dynamic Dark/Light Mode toggle using Vanilla JavaScript. Optimized for accessibility, performance, and
           cross-device compatibility.</p>
-        <img src="portfolio-image.png" />
+        <img src="images/portfolio-image.png" />
+      </div>
+        </a>
+      
+      <a href="https://diabetes-predictor-by-anmol.streamlit.app/" id="diabetes-predictor-by-anmol-link" style="text-decoration: none;">
+      <div class="project-card glass-panel">
+        <h3>AI-Powered Diabetes Predictor</h3>
+        <p>Diabetes Predictor is a Machine Learning web application that predicts the likelihood of diabetes based on key health parameters such as glucose level, BMI, age, blood pressure, and insulin. Built using Python, Scikit-learn, and Streamlit, it features an intuitive interface for real-time predictions.</p>
+        <img src="images/bg.png" />
         </div>
         </a>
-      <a href="weather.html" class="lic" style="text-decoration: none;">
+      <a href="weather.html"  style="text-decoration: none;">
       <div class="project-card glass-panel">
         <h3>Weather App</h3>
           <p>Developed a responsive weather application using JavaScript that fetches real-time weather data from a third-party API. The app displays current weather conditions, temperature, humidity, wind speed, and location-based forecasts through a clean and user-friendly interface.</p>
-          <img src="weather-image.png"/>
+          <img src="images/weather-image.png"/>
+      </div></a>
       </div>
-    </div></a>
   </section>
 
   <!--Certificates and participations -->
@@ -218,58 +260,92 @@
       <div class="project-card glass-panel">
           <h3>Full Stack Developer Bootcamp – GeeksforGeeks</h3><!--
         <p>Successfully completed a 6-week Full Stack Developer Bootcamp by GeeksforGeeks, gaining hands-on experience in frontend and backend web development. Learned to build responsive web applications using modern technologies, understand server-side development, and work with databases while following industry best practices.</p>-->
-        <img src="gfgbootcamp.jpeg" id="cert-img"/>
+        <img src="images/gfgbootcamp.jpeg" id="cert-img"/>
       </div>
        <div class="project-card glass-panel">
           <h3>Java Bootcamp – LetsUpgrade</h3><!--
         <p>Successfully completed a 3-day Java Bootcamp organized by LetsUpgrade in collaboration with NSDC, ITM Edutech Training Pvt. Ltd., and GDG MAD. Strengthened core Java programming concepts, object-oriented programming (OOP), problem-solving, and hands-on coding skills through practical sessions.</p>-->
-        <img src="javabootcamp.jpeg" id="cert-img"/>
+        <img src="images/javabootcamp.jpeg" id="cert-img"/>
       </div>
       <!--Linkedin express-->
       <div class="project-card glass-panel">
           <h3>Express Essentials – LinkedIn Learning</h3><!--
         <p>Successfully completed the "Express Essentials: Build Powerful Web Apps with Node.js" course on LinkedIn Learning. Developed practical skills in Express.js, Node.js, and modern web application development.</p>-->
-        <img src="express.png" id="cert-img"/>
+        <img src="images/express.png" id="cert-img"/>
       </div>
        <div class="project-card glass-panel">
           <h3>Introduction to Gen AI Studio – Google Cloud & Simplilearn</h3><!--
         <p>Successfully completed the Introduction to Generative AI Studio online course offered by Google Cloud through Simplilearn SkillUp. Gained a foundational understanding of Generative AI concepts, prompt engineering, and Google AI Studio for building and experimenting with AI-powered applications.</p>-->
-        <img src="gen-ai.jpeg" id="cert-img"/>
+        <img src="images/gen-ai.jpeg" id="cert-img"/>
       </div>
       <div class="project-card glass-panel">
           <h3>Summer SkillUp Workshop – GeeksforGeeks</h3><!--
         <p>Participated in the Summer SkillUp online workshop organized by GeeksforGeeks. The workshop provided exposure to industry-relevant technologies, programming concepts, and practical learning sessions, helping strengthen my technical foundation and enhance my problem-solving skills.</p>-->
-        <img src="gfgsummerskill.jpeg" id="cert-img"/>
+        <img src="images/gfgsummerskill.jpeg" id="cert-img"/>
       </div>
       <div class="project-card glass-panel">
           <h3>HTML & CSS Bootcamp – LetsUpgrade</h3><!--
         <p>Successfully completed a 3-day HTML & CSS Bootcamp organized by LetsUpgrade in collaboration with NSDC, ITM Edutech Training Pvt. Ltd., and GDG MAD. Gained practical experience in building responsive web pages using HTML and CSS, understanding modern web design principles, and creating clean, user-friendly interfaces through hands-on projects.</p>-->
-        <img src="htmlbootcamp.jpeg" id="cert-img"/>
+        <img src="images/htmlbootcamp.jpeg" id="cert-img"/>
       </div>
     </div>
   </section>
 
-  <!--Badges-->
+  <!--Badges & Live Stats-->
   <section id="achievements">
-    <h2>Achievements</h2>
-    <div class="skills-grid">
-    <div class="skill-card achievement-card glass-panel">
-        <img src="leetcode-50.gif" alt="LeetCode 50 Days Badge" id="badge">
-
-        <h3>LeetCode 50 Days Badge</h3>
-
-        <p>
-            Earned the <strong>50 Days Badge</strong> by consistently solving coding
-            problems on LeetCode, demonstrating dedication to improving Data Structures
-            and Algorithms skills.
-        </p>
-
-        <a href="https://leetcode.com/u/anmolmishra4code/" target="_blank">
+    <h2>Achievements & Live Stats</h2>
+    <div class="project-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+      
+      <!-- Static Badge -->
+      <div class="project-card glass-panel" style="text-align: center;">
+        <img src="images/leetcode-50.gif" alt="LeetCode 50 Days Badge" id="badge" style="max-height: 120px; margin: 0 auto;">
+        <h3 style="margin-top: 15px;">LeetCode 50 Days Badge</h3>
+        <p>Earned the <strong>50 Days Badge</strong> by consistently solving coding problems on LeetCode, demonstrating dedication to improving Data Structures and Algorithms skills.</p>
+        <a href="https://leetcode.com/u/anmolmishra4code/" target="_blank" class="expand-btn" style="display: inline-block; margin-top: 15px; text-decoration: none;">
             View LeetCode Profile →
         </a>
+      </div>
+
+      <!-- Dynamic Live Stats -->
+      <div class="project-card glass-panel" style="text-align: center;">
+        <h3>Live LeetCode Stats</h3>
+        
+        <div id="lc-loading" style="margin-top: 20px;">
+          <p>Fetching real-time stats...</p>
+        </div>
+        
+        <div id="lc-data" style="display: none; text-align: left; margin-top: 20px;">
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; margin-bottom: 15px;">
+            <span style="color: var(--text-muted);">Global Ranking:</span>
+            <strong id="lc-rank" style="color: var(--accent-color); font-size: 1.1rem;">--</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
+            <span style="color: var(--text-muted);">Total Solved:</span>
+            <strong id="lc-total" style="font-size: 1.2rem;">--</strong>
+          </div>
+          <div style="display: flex; gap: 10px; justify-content: space-between;">
+            <div style="text-align: center; background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.3); border-radius: 8px; padding: 10px; flex: 1;">
+              <div style="color: #22c55e; font-size: 0.8rem; text-transform: uppercase;">Easy</div>
+              <strong id="lc-easy">--</strong>
+            </div>
+            <div style="text-align: center; background: rgba(234, 179, 8, 0.1); border: 1px solid rgba(234, 179, 8, 0.3); border-radius: 8px; padding: 10px; flex: 1;">
+              <div style="color: #eab308; font-size: 0.8rem; text-transform: uppercase;">Med</div>
+              <strong id="lc-med">--</strong>
+            </div>
+            <div style="text-align: center; background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 8px; padding: 10px; flex: 1;">
+              <div style="color: #ef4444; font-size: 0.8rem; text-transform: uppercase;">Hard</div>
+              <strong id="lc-hard">--</strong>
+            </div>
+          </div>
+        </div>
+        
+        <div id="lc-error" style="display: none; color: #ef4444; margin-top: 20px;">
+          <p>Failed to load live stats.</p>
+        </div>
+      </div>
+
     </div>
-    </div>
-</section>
+  </section>
 
   <!-- Contact Section -->
   <section id="contact">
@@ -380,6 +456,44 @@
       }
       lucide.createIcons();
     });
+
+    // Fetch LeetCode Live Stats
+    async function fetchLeetCodeStats() {
+      const username = 'anmolmishra4code';
+      const loading = document.getElementById('lc-loading');
+      const dataContainer = document.getElementById('lc-data');
+      const errorMsg = document.getElementById('lc-error');
+      
+      try {
+        const [profileRes, solvedRes] = await Promise.all([
+            fetch(`https://alfa-leetcode-api.onrender.com/${username}`),
+            fetch(`https://alfa-leetcode-api.onrender.com/${username}/solved`)
+        ]);
+        
+        const profileData = await profileRes.json();
+        const solvedData = await solvedRes.json();
+        
+        if(profileData.ranking && solvedData.solvedProblem !== undefined) {
+          document.getElementById('lc-rank').textContent = profileData.ranking.toLocaleString();
+          document.getElementById('lc-total').textContent = solvedData.solvedProblem;
+          document.getElementById('lc-easy').textContent = solvedData.easySolved;
+          document.getElementById('lc-med').textContent = solvedData.mediumSolved;
+          document.getElementById('lc-hard').textContent = solvedData.hardSolved;
+          
+          loading.style.display = 'none';
+          dataContainer.style.display = 'block';
+        } else {
+          throw new Error('API returned error');
+        }
+      } catch (err) {
+        console.error('LeetCode API Error:', err);
+        loading.style.display = 'none';
+        errorMsg.style.display = 'block';
+      }
+    }
+    
+    // Call on load
+    fetchLeetCodeStats();
   </script>
 </body>
 

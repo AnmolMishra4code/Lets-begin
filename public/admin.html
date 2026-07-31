@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Analytics Dashboard</title>
+
+    <link rel="stylesheet" href="admin.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <h1>Visitor Analytics</h1>
+            <p>Portfolio Dashboard</p>
+
+        </header>
+
+        <section class="cards">
+
+            <div class="card">
+                <h3>Total Visitors</h3>
+                <h2 id="totalVisitors">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>Desktop Users</h3>
+                <h2 id="desktopUsers">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>Mobile Users</h3>
+                <h2 id="mobileUsers">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>Countries</h3>
+                <h2 id="countries">0</h2>
+            </div>
+
+        </section>
+
+        <section class="table-section">
+
+            <h2>Recent Visitors</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Time</th>
+                        <th>Browser</th>
+                        <th>OS</th>
+                        <th>Country</th>
+                        <th>Device</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="visitorTable">
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </div>
+
+    <script src="admin.js"></script>
+
+</body>
+
+</html>
